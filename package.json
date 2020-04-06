@@ -1,0 +1,22 @@
+{
+  "name": "Medium_Scraping",
+  "version": "1.0.0",
+  "description": "Code Example For Web Scraping",
+  "main": "app.js",
+  "repository": "https://github.com/dommangetnicolas/Medium_Scraping.git",
+  "author": "dommangetnicolas <dommanget.nicolas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
